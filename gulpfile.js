@@ -256,13 +256,6 @@ gulp.task('styles', function() {
     }
   };
 
-  var processors = [
-    sprites(spritesOptions),
-    cssnext({
-        'browsers': 'last 5 versions' // for autoprefixer and features list
-    })
-  ];
-
   return gulp.src([
     'development/styles/style.css'
   ])
@@ -271,7 +264,6 @@ gulp.task('styles', function() {
         advanced: false,
         keepSpecialComments: 0
       }))
-      .pipe(postcss(processors))
       .pipe(base64({
         // Allow files from /vectors/ only
         exclude: ['/sprite/', '/images/', '/symbols/']
