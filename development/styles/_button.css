@@ -1,0 +1,23 @@
+.button {
+    display: inline-block;
+    vertical-align: top;
+    border: none;
+    padding: 9px 20px 11px;
+    background-color: var(--button_color);
+    border-radius: 12px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+    .button__icon {
+        margin-top: 1px;
+        margin-bottom: -1px;
+        vertical-align: top;
+        fill: currentColor;
+    }

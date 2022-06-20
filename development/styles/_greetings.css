@@ -1,0 +1,102 @@
+.greetings {
+    padding: 16px;
+}
+    .greetings__stage {
+        position: relative;
+    }
+        .greetings__slide {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease,
+                        visibility 0.5s ease;
+        }
+
+        .greetings__slide--current {
+            position: static;
+            opacity: 1;
+            visibility: visible;
+        }
+            .greetings__preview {
+                height: 328px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+                .greetings__temp {
+                    border-radius: 50%;
+                }
+
+            .greetings__body {
+                margin-top: 15px;
+            }
+                .greetings__heading {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+
+                .greetings__description {
+                    margin-top: 15px;
+                    min-height: 88px;
+                    font-size: 17px;
+                    line-height: 22px;
+                }
+
+    .greetings__navigation {
+        margin-top: 27px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+        .greetings__dot {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            background-color: transparent;
+            border: none;
+            text-indent: 200%;
+            white-space: nowrap;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .greetings__dot--current {
+            cursor: default;
+        }
+            .greetings__dot::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                width: 8px;
+                height: 8px;
+                background-color: var(--hint_color);
+                border-radius: 50%;
+                transition: background-color 0.5s ease;
+            }
+
+            .greetings__dot--current::before {
+                background-color: var(--button_color);
+            }
+
+    .greetings__next {
+        margin-top: 28px;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Index</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic" rel="stylesheet">-->
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body class="body">
+
+
+
+        <div class="greetings">
+            <div class="greetings__stage">
+                <div class="greetings__slide greetings__slide--current">
+                    <div class="greetings__preview">
+                        <img class="greetings__temp"
+                             srcset="../temp/slide-a@2x.jpg 2x"
+                             src="../temp/slide-a.jpg"
+                             width="204"
+                             height="204"
+                             alt=""
+                        >
+                    </div>
+                    <div class="greetings__body">
+                        <div class="greetings__heading">Это бот по работе с вашим подсознанием!</div>
+                        <div class="greetings__description">С помощью метафорических карт бот помогает найти ответ на ваш вопрос</div>
+                    </div>
+                </div>
+                <div class="greetings__slide">
+                    <div class="greetings__preview">
+                        <img class="greetings__temp"
+                             srcset="../temp/slide-b@2x.jpg 2x"
+                             src="../temp/slide-b.jpg"
+                             width="204"
+                             height="204"
+                             alt=""
+                        >
+                    </div>
+                    <div class="greetings__body">
+                        <div class="greetings__heading">Как это работает?</div>
+                        <div class="greetings__description">Вы задаете вопрос, а бот показывает вам карту с изображением. Через ассоциации вы находите причину проблемы</div>
+                    </div>
+                </div>
+                <div class="greetings__slide">
+                    <div class="greetings__preview">
+                        <img class="greetings__temp"
+                             srcset="../temp/slide-c@2x.jpg 2x"
+                             src="../temp/slide-c.jpg"
+                             width="204"
+                             height="204"
+                             alt=""
+                        >
+                    </div>
+                    <div class="greetings__body">
+                        <div class="greetings__heading">Почему это работает?</div>
+                        <div class="greetings__description">Изображения активизируют работу правого полушария мозга, отвественного за творческое мышление. Вы минуете фильтры рационализации левого полушария и быстро находите решение проблемы</div>
+                    </div>
+                </div>
+            </div>
+            <div class="greetings__navigation">
+                <button class="greetings__dot greetings__dot--current" type="button">1</button>
+                <button class="greetings__dot" type="button">2</button>
+                <button class="greetings__dot" type="button">3</button>
+            </div>
+            <a class="greetings__next button button--next" href="#">
+                <span class="button__label">Продолжить</span>
+                <svg class="button__icon" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.26285 17.0057C4.88966 16.5986 4.91716 15.966 5.32428 15.5928L11.791 9.66499L5.32428 3.73716C4.91716 3.36397 4.88966 2.7314 5.26285 2.32428C5.63604 1.91716 6.26861 1.88966 6.67573 2.26285L14.7508 9.66498L6.67573 17.0671C6.26861 17.4403 5.63605 17.4128 5.26285 17.0057Z"/>
+                </svg>
+
+            </a>
+        </div>
+
+
+        <!-- jQuery -->
+        <script src="../vendors/jquery/jquery-3.2.0.min.js"></script>
+
+        <!-- Outline.js -->
+        <script src="../vendors/outline/outline.js"></script>
+
+
+        <!-- Temp -->
+        <script src="../scripts/_greetings.js"></script>
+
+    </body>
+</html>
