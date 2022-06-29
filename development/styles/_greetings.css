@@ -46,25 +46,6 @@
                     line-height: 22px;
                 }
 
-    .greetings__navigation {
-        margin-top: 27px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-    }
-        .greetings__dot {
-            position: relative;
-            width: 20px;
-            height: 20px;
-            padding: 0;
-            background-color: transparent;
-            border: none;
-            text-indent: 200%;
-            white-space: nowrap;
-            overflow: hidden;
-            cursor: pointer;
-        }
-
         .greetings__dot--current {
             cursor: default;
         }

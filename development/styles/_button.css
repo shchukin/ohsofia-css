@@ -21,3 +21,18 @@
         vertical-align: top;
         fill: currentColor;
     }
+
+
+
+.button--secondary {
+    background-color: #F5F5F5;
+    color: #40A7E3;
+}
+
+
+
+.button[disabled],
+.button--disabled {
+    opacity: 50%;
+    pointer-events: none;
+}
