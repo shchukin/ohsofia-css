@@ -3,13 +3,13 @@
     vertical-align: top;
     border: none;
     padding: 9px 20px 11px;
-    background-color: var(--button_color);
+    background-color: var(--tg-theme-button-color, #40A7E3);
+    color: var(--tg-theme-button-text-color, #FFFFFF);
     border-radius: 12px;
     font-family: inherit;
     font-weight: 600;
     font-size: 17px;
     line-height: 20px;
-    color: #FFFFFF;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
