@@ -1,4 +1,7 @@
 .greetings {
+    display: grid;
+    min-height: 100%;
+    align-items: center;
     padding: 16px;
 }
     .greetings__stage {
@@ -67,15 +70,6 @@
             .greetings__dot--current::before {
                 background-color: var(--button_color);
             }
-
-    .greetings__next {
-        margin-top: 28px;
-        width: 100%;
-    }
-
-
-
-
 
 
 

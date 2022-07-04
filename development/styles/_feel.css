@@ -1,0 +1,23 @@
+.feel {
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: auto 1fr;
+}
+    .feel__head {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+        .feel__heading {
+            text-align: center;
+        }
+
+        .feel__note {
+            margin-top: 12px;
+            color: var(--hint_color, #999999);
+            text-align: center;
+        }
+
+    .feel__body {
+        display: grid;
+        align-items: center;
+    }
