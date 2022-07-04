@@ -1,0 +1,58 @@
+.slider {
+
+}
+    .slider__preview {
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 0 0 9px var(--button_color, #40A7E3);
+        border-radius: 50%;
+    }
+        .slider__emoji {
+            vertical-align: top;
+            border-radius: 50%;
+        }
+
+    .slider__output {
+        margin-top: 42px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 32px;
+        height: 32px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: #FAFAFA;
+        border-radius: 50%;
+        color: var(--button_color, #40A7E3); /* Green background */
+    }
+
+    .slider__widget {
+        margin-top: 49px;
+        -webkit-appearance: none; /* Override default CSS styles */
+        appearance: none;
+        width: 100%; /* Full-width */
+        height: 6px; /* Specified height */
+        background-color: var(--button_color, #40A7E3); /* Green background */
+        border-radius: 3px;
+        outline: none; /* Remove outline */
+    }
+
+    .slider__widget::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        width: 36px; /* Set a specific slider handle width */
+        height: 36px; /* Slider handle height */
+        background-color: var(--button_color, #40A7E3); /* Green background */
+        border: 2px solid #FFFFFF;
+        border-radius: 50%;
+        cursor: pointer; /* Cursor on hover */
+    }
+
+
+
+    .slider__widget::fill-lower {
+        background-color: red;
+    }
+
