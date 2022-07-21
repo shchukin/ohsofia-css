@@ -1,0 +1,27 @@
+.informer {
+    position: relative;
+    padding: 16px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    text-align: center;
+}
+    .informer__icon {
+        vertical-align: top;
+    }
+
+    .informer__close {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+        .informer__cross {
+            vertical-align: top;
+        }
+
+    .informer__message {
+        margin-top: 10px;
+    }

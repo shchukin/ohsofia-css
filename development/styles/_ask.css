@@ -1,0 +1,25 @@
+.ask {
+    position: relative;
+    padding: 16px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    text-align: center;
+}
+    .ask__heading {
+        display: inline-block;
+        vertical-align: top;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: #40A7E3;
+        text-transform: uppercase;
+    }
+
+    .ask__message {
+        margin-top: 12px;
+        font-size: 17px;
+        line-height: 22px;
+    }

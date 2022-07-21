@@ -1,0 +1,26 @@
+.question {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+    .question__notification {
+
+    }
+
+    .question__body {
+        margin-top: 24px;
+    }
+
+    .question__body:first-child {
+        margin-top: 0;
+    }
+
+    .question__stage {
+        margin-top: 14px;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+        .question__preview {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }

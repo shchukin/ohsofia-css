@@ -1,0 +1,11 @@
+.card {
+    padding: 8px;
+    border: 2px solid #00A6E4;
+    border-radius: 22px;
+}
+    .card__image {
+        vertical-align: top;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
