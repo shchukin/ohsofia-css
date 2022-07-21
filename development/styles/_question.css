@@ -24,3 +24,8 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+    .question__expand {
+        margin-top: 5px;
+        text-align: center;
+    }

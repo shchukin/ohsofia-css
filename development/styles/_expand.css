@@ -1,0 +1,15 @@
+.expand {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+    .expand__icon {
+        margin-right: 8px;
+    }
+
+    .expand__label {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #40A7E3;
+    }
