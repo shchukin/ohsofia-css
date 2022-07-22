@@ -7,5 +7,6 @@
         vertical-align: top;
         width: 100%;
         height: auto;
+        background-color: var(--image-fallback);
         border-radius: 15px;
     }

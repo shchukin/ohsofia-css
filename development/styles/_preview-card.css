@@ -1,0 +1,12 @@
+.preview-card {
+    padding: 3px;
+    box-shadow: 2px 2px 20px rgba(39, 30, 63, 0.1);
+    border-radius: 9px;
+}
+    .preview-card__image {
+        vertical-align: top;
+        width: 100%;
+        height: auto;
+        background-color: var(--image-fallback);
+        border-radius: 6px;
+    }

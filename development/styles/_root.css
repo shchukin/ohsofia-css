@@ -1,5 +1,5 @@
 /* stylelint-disable declaration-colon-space-after */
 :root {
-
+    --image-fallback: #CCCCCC;
 }
 /* stylelint-enable declaration-colon-space-after */
