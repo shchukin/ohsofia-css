@@ -1,6 +1,6 @@
 .card {
     padding-top: 16px;
-    padding-bottom: 16px;
+    padding-bottom: 78px;
 }
     .card__preview {
         width: 116px;
@@ -27,7 +27,5 @@
             padding: 2px 8px;
             background-color: #FAFAFA;
             border-radius: 11px;
-            font-size: 14px;
-            line-height: 18px;
             color: #4B4B4B;
         }
