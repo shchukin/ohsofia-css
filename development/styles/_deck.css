@@ -1,0 +1,35 @@
+.deck {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+    .deck__heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .deck__body {
+        margin-top: 16px;
+        width: 100%;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+        .deck__center {
+
+        }
+            .question__question {
+
+            }
+
+            .deck__hint {
+                margin-top: 12px;
+                color: #999999;
+                text-align: center;
+            }
+
+            .deck__content {
+                margin-top: 24px;
+            }

@@ -1,8 +1,8 @@
 .page {
-    height: 100%;
+    height: calc(100% - var(--navigation-height));
 }
     .page::after {
         content: '';
         display: block;
-        height: 65px;
+        height: var(--navigation-height);
     }
