@@ -2,6 +2,10 @@
     display: inline-flex;
     align-items: flex-start;
     padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    cursor: pointer;
 }
     .expand__icon {
         margin-right: 8px;

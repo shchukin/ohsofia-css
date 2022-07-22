@@ -29,3 +29,19 @@
         margin-top: 5px;
         text-align: center;
     }
+
+    .question__answer {
+        margin-top: 14px;
+    }
+
+    .question__operations {
+        margin-top: 16px;
+        display: flex;
+        align-items: stretch;
+        gap: 16px;
+    }
+        .question__action {
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 0;
+        }

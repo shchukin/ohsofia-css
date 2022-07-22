@@ -1,0 +1,20 @@
+.add {
+    padding: 10px;
+    background-color: #EAF6FD;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+    .add__icon {
+        vertical-align: top;
+    }
+
+    .add__label {
+        display: block;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        color: #168ACD;
+        text-align: center;
+    }
