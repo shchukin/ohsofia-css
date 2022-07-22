@@ -52,7 +52,14 @@
 
 
 
-    .slider__widget::fill-lower {
-        background-color: red;
+.slider--alternate {
+    padding-bottom: 12px;
+}
+    .slider--alternate .slider__output {
+        margin-top: 25px;
+        background-color: #FFFFFF;
     }
 
+    .slider--alternate .slider__widget {
+        margin-top: 35px;
+    }
