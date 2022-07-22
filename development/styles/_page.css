@@ -2,7 +2,7 @@
     height: calc(100% - var(--navigation-height));
 }
     .page::after {
-        content: '';
+        content: "";
         display: block;
         height: var(--navigation-height);
     }
