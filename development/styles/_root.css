@@ -2,6 +2,6 @@
 :root {
     --image-fallback: #CCCCCC;
     --navigation-height: 65px;
-
+    --card-ratio: 141.1354%;
 }
 /* stylelint-enable declaration-colon-space-after */

@@ -21,16 +21,10 @@
         .deck__center {
 
         }
-            .question__question {
+            .deck__question {
 
-            }
-
-            .deck__hint {
-                margin-top: 12px;
-                color: #999999;
-                text-align: center;
             }
 
             .deck__content {
-                margin-top: 24px;
+                margin-top: 12px;
             }
