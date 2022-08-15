@@ -1,12 +1,33 @@
 .full-card {
+    position: relative;
     padding: 8px;
     border: 2px solid #00A6E4;
     border-radius: 22px;
+    perspective: 600px;
+    transition: transform 1.2s ease;
 }
     .full-card__image {
+        position: relative;
         vertical-align: top;
         width: 100%;
         height: auto;
         background-color: var(--image-fallback);
         border-radius: 15px;
     }
+
+    .full-card__backside {
+        position: absolute;
+        left: 8px;
+        top: 8px;
+        right: 8px;
+        bottom: 8px;
+        background-color: #00A6E4;
+        border-radius: 15px;
+        backface-visibility: hidden;
+    }
+
+
+.full-card--open {
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
