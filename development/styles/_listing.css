@@ -1,6 +1,6 @@
 .listing {
     position: relative;
-    transition: padding-top 1s ease;
+    transition: padding-top 0.6s ease;
     backface-visibility: hidden;
 }
     .listing__hint {
