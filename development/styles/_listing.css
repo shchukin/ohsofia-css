@@ -8,25 +8,16 @@
         text-align: center;
     }
 
-    .listing__flip-handler {
-        margin-top: 24px;
-    }
-
     .listing__deck {
-        margin-top: 24px;
+        margin-top: var(--card-ratio);
     }
         .listing__item {
-            margin-top: calc(-1 * var(--card-ratio) + 23px); /* Пропорция картинки 1417/1004 */
+            margin-top: calc(-1 * var(--card-ratio) + 24px); /* Пропорция картинки 1417/1004 */
             /*transition: top 1s ease;*/
         }
 
         .listing__item:first-child {
-            margin-top: 0;
-        }
 
-        .listing__flip-handler.button,
-        .listing__flip-handler .button {
-            width: 100%;
         }
 
 
@@ -36,6 +27,7 @@
     .listing--expanded {
 
     }
+
 
 .listing__item--current {
     position: absolute;

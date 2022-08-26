@@ -3,5 +3,6 @@
     --image-fallback: #CCCCCC;
     --navigation-height: 65px;
     --card-ratio: 141.1354%;
+    --ease-out-circ: cubic-bezier(0, 0.55, 0.45, 1);
 }
 /* stylelint-enable declaration-colon-space-after */

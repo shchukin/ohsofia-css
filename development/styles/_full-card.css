@@ -28,6 +28,16 @@
     }
 
 
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
 .full-card--open {
     transform-style: preserve-3d;
     transform: rotateY(180deg);
